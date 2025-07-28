@@ -20,6 +20,7 @@ include('components/journey-items.php');
 
     <link rel="stylesheet" href="assets/css/testimonies.css">
     <link rel="stylesheet" href="assets/css/ourjourney.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     
     <script>
       let activeProfile;
@@ -113,6 +114,36 @@ include('components/journey-items.php');
         ?>
     </div>
 
+<div class="container mx-auto my-10 text-center himti-calendar">
+    <h2 class="text-4xl font-bold mb-8 himti-title">Kalender Agustus 2025</h2>
+    
+    <!-- Gambar Kalender -->
+    <div class="calendar-wrapper mb-8">
+        <img src="assets/img/Kalender/kalender-agustus-2025.png"
+             alt="Kalender Agustus 2025"
+             class="w-[400px] max-w-full calendar-img" />
+    </div>
+
+    <!-- Tanggal Penting -->
+    <div class="max-w-xs mx-auto p-2 rounded-lg important-dates-card text-left">
+        <h3 class="card-title text-lg">
+            <span class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+            </span>
+            Tanggal Penting
+        </h3>
+        
+        <div class="date-item">
+            <span class="date-strong">17 Agustus:</span>
+            <span>Hari Kemerdekaan RI ke-80</span>
+        </div>
+    </div>
+</div>
+
+      
     <div class="upcomingevent container">
         <div class="title">
             <span>Upcoming Events</span>
